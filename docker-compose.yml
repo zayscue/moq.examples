@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   example1:
-    image: ${DOCKER_REGISTRY}example1
+    image: example1
     build:
       context: .
       dockerfile: src/Example1/Dockerfile
